@@ -1,5 +1,4 @@
 # Amazon API
-
 An API to scrape details from the Amazon Website and return the details
 in a json format.
 
@@ -26,18 +25,15 @@ if __name__ == '__main__':
 	app.run(host='<IP ADDRESS>' port=<PORT-NUMBER>)
 ```
 
-### Request
+### Request 
 
 Arguments:
-
--   `url` this is the link to amazon product page 
+- `url` this is the link to amazon product page 
 
 A Request looks like this
-
--   `http://<IP>:<PORT>/api/amazon?url=<PRODUCTURL>`
+- `http://<IP>:<PORT>/api/amazon?url=<PRODUCTURL>`
 
 ### Response
-
 ```json
 {
 	"price": 11.55,

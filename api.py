@@ -17,4 +17,4 @@ def amazonAPI():
 
 
 if __name__ == '__main__':
-    app.run(host='192.168.0.194', port=9200)
+    app.run(host='0.0.0.0', port=9200)
